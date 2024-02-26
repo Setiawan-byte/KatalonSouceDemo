@@ -40,7 +40,7 @@ totalPriceCartMenu = WebUI.getAttribute(findTestObject('Product_Inventory/Page_S
 //InventoryImage = WebUI.getAttribute(findTestObject('Product_Inventory/Page_Swag Labs/InventoryContainer'), 'class')
 
 //	InventoryImage = WebUI.getAttribute(findTestObject(InventoryImage),'class')
-////	InventoryImage = WebUI.getAttribute(findTestObject(InventoryImage),'src')
+//	InventoryImage = WebUI.getAttribute(findTestObject(InventoryImage),'src')
 WebUI.click(findTestObject('Product_Inventory/Page_Swag Labs/img_Name (A to Z)_inventory_item_img'))
 
 totalPriceInvoiceMenu = WebUI.getAttribute(findTestObject('Product_Inventory/Page_Swag Labs/img_Back to products_inventory_details_img'), 

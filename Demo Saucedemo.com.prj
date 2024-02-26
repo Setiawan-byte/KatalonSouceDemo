@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Demo Saucedemo.com</name>
+   <name>KatalonSouceDemo</name>
    <tag></tag>
    <UUID>3e178890-2fe5-47cd-9368-2dc737b03585</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>E:\Katalon Projects\Demo Saucedemo.com\Demo Saucedemo.com.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
