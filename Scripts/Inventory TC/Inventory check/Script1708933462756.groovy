@@ -17,13 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+import org.openqa.selenium.WebElement
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+WebUI.setText(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_user-name'), 'standard_user')
 
-WebUI.setText(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/input_user-name'), 'standard_user')
+WebUI.setText(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_password'), 'secret_sauce')
 
-WebUI.setText(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/input_password'), 'secret_sauce')
+WebUI.click(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_login-button'))
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/input_login-button'))
+//check image between inventory and inventory item a.k.a detail
+Thumbnail = WebUI.getAttribute(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryImg'), 'src')
 
+println(Thumbnail)
+
+WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryImg'))
+
+WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryItemTittle'))
+
+WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryItemDesc'))
+
+WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryPrice'))
+
+WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/button_Add to cart'))
+
+List<WebElement> webItemHargaList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryItem List'),10)
+
+for (data in webItemHargaList) {
+	println data.getText()
+}

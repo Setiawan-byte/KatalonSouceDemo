@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-
 WebUI.verifyElementPresent(findTestObject('Login Page/Page_Swag Labs/div_Swag Labs'), 0)
 
 WebUI.click(findTestObject('Login Page/Page_Swag Labs/input_Swag Labs_login-button'))

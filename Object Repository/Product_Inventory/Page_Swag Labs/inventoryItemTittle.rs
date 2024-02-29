@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PriceBarr</name>
+   <name>inventoryItemTittle</name>
    <tag></tag>
-   <elementGuidId>b9e77747-b26d-4867-a642-fd1985ec6340</elementGuidId>
+   <elementGuidId>eb6c494c-6d72-4052-a7a2-5fc2d75c08f3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='inventory_container']/div/div/div[2]/div[2]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;item_4_title_link&quot;]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.pricebar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='item_4_title_link']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,54 +25,54 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3f0ce8d0-809c-4bfd-8fdb-bb355a3955eb</webElementGuid>
+      <webElementGuid>d6c30efa-b61d-4b48-836c-a893a695a886</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pricebar</value>
-      <webElementGuid>500bc6a9-e74f-4232-a78f-07309b981c50</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>$29.99Add to cart</value>
-      <webElementGuid>1eba4374-2eff-45af-9772-e83cd06b0927</webElementGuid>
+      <value>inventory_item_name </value>
+      <webElementGuid>336fb9be-fe49-4498-8388-bd0a4f8b41bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sauce Labs Backpack</value>
+      <webElementGuid>d6a95c13-1167-4250-abce-010d9d17f4ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;pricebar&quot;]</value>
-      <webElementGuid>6f3d4e99-cba5-4a86-950f-a473ecbcf8a8</webElementGuid>
+      <value>//*[@id=&quot;item_4_title_link&quot;]/div</value>
+      <webElementGuid>69a113dc-a758-4f21-a6a9-8369a47dd539</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='inventory_container']/div/div/div[2]/div[2]</value>
-      <webElementGuid>29cbc297-a676-4a78-8ab0-1c5976ebe402</webElementGuid>
+      <value>//a[@id='item_4_title_link']/div</value>
+      <webElementGuid>c1855f94-afa2-4f7a-bcdd-195c597366ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div[2]/div[2]</value>
-      <webElementGuid>491acb95-b336-45c3-9a9e-589ea17a9c80</webElementGuid>
+      <value>//a/div</value>
+      <webElementGuid>ca6a541f-fc49-491b-b73a-2c489ba7007f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '$29.99Add to cart' or . = '$29.99Add to cart')]</value>
-      <webElementGuid>d439e341-7c97-404b-a27c-9c42d300ecf7</webElementGuid>
+      <value>//div[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]</value>
+      <webElementGuid>2f9d9b32-d091-40f7-9835-e3e32ea126ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_Name (A to Z)_inventory_item_img</name>
+   <name>inventoryImg</name>
    <tag></tag>
-   <elementGuidId>1ed858b4-be43-4c87-897f-345135871586</elementGuidId>
+   <elementGuidId>c403b955-c83b-4c93-8577-7fd237b3605a</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;item_4_img_link&quot;)/img[@class=&quot;inventory_item_img&quot;][count(. | //*[@src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']) = count(//*[@src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg'])]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>img.inventory_item_img</value>
@@ -13,12 +17,8 @@
          <key>XPATH</key>
          <value>//a[@id='item_4_img_link']/img</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@alt = 'Sauce Labs Backpack' and @src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>c02846f7-bcb1-4ee5-a4fa-2c30909e0162</webElementGuid>
+      <webElementGuid>464bf5aa-5b55-4227-89e9-45040d2f7a86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
       <value>Sauce Labs Backpack</value>
-      <webElementGuid>c798e011-69f4-4be3-b5ae-37b542ac3ade</webElementGuid>
+      <webElementGuid>28057019-ad13-4c2e-a93f-0047d6fdc8e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_img</value>
-      <webElementGuid>ffc65472-0fac-4dde-bcbc-7a36c9db5980</webElementGuid>
+      <webElementGuid>91bc6c90-901a-41d1-8e8b-189d43e6fd1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,15 +50,15 @@
       <name>src</name>
       <type>Main</type>
       <value>/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg</value>
-      <webElementGuid>d08bd736-ee4b-4f38-9acc-21751fc46549</webElementGuid>
+      <webElementGuid>e8bc6245-a44f-47dc-a3d5-4f862474c5ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;item_4_img_link&quot;)/img[@class=&quot;inventory_item_img&quot;]</value>
-      <webElementGuid>2373fe72-5dd4-4ff0-9112-1a0734e18151</webElementGuid>
+      <webElementGuid>4cf08909-d55c-4d7c-ae6d-999091ece22d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='item_4_img_link']/img</value>
-      <webElementGuid>92083209-4103-4777-bff0-e740833ea154</webElementGuid>
+      <webElementGuid>347d9700-87a3-47f1-8cbc-922aefe74286</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Sauce Labs Backpack']</value>
-      <webElementGuid>176f4e60-537b-4f1d-8386-5386564ef85b</webElementGuid>
+      <webElementGuid>fc34c099-dc01-44cc-9bc0-39cf6735b4ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/img</value>
-      <webElementGuid>c67a102c-c1e9-4fcc-963b-89b204fa7d5d</webElementGuid>
+      <webElementGuid>9c8b179a-c49b-4bc0-b9f7-379bf786c5ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'Sauce Labs Backpack' and @src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']</value>
-      <webElementGuid>9a372cc6-6ec4-4bc7-8647-ba02bb851319</webElementGuid>
+      <webElementGuid>190e8982-f012-4f6a-9f83-7881e70d4c87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

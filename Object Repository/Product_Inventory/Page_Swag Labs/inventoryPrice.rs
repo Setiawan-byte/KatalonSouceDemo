@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price</name>
+   <name>inventoryPrice</name>
    <tag></tag>
    <elementGuidId>841c89d8-2d74-4e1b-8546-06dafd7f0ca3</elementGuidId>
    <selectorCollection>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'inventory_item_price' and (text() = '$29.99' or . = '$29.99') and @ref_element = 'Object Repository/Product_Inventory/Page_Swag Labs/PriceBarr']</value>
+         <value>//*[(text() = '$29.99' or . = '$29.99')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2fe6c82d-4367-4f3c-ba05-78ff22785949</webElementGuid>
+      <webElementGuid>53061ffd-1993-4296-9125-ea9791c7ad20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_price</value>
-      <webElementGuid>e90eb306-6aaa-4843-a81c-288707834a47</webElementGuid>
+      <webElementGuid>808daded-4de1-437c-b257-43592fd8c9c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$29.99</value>
-      <webElementGuid>f4a1a898-8065-4776-bfab-693817853611</webElementGuid>
+      <webElementGuid>7a77b767-220b-4a6e-a9a6-d4263808c139</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,15 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;pricebar&quot;]/div[@class=&quot;inventory_item_price&quot;]</value>
-      <webElementGuid>942b3469-ac74-45fd-baa0-9602dce05d9e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Product_Inventory/Page_Swag Labs/PriceBarr</value>
-      <webElementGuid>5755a1b1-c886-4f5e-a1cd-c34041ad92e2</webElementGuid>
+      <webElementGuid>c801217c-f362-4d0e-abe1-ef1d22fadc10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>de176137-cdf7-4981-8622-ebcd8ef3e356</webElementGuid>
+      <webElementGuid>931eacef-a557-4d3c-905a-3dd985a8307f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>78ed5c31-747b-423b-b19f-2c092ce9b468</webElementGuid>
+      <webElementGuid>83286ac1-1577-4f14-9f7f-6ae0010c17a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '$29.99' or . = '$29.99')]</value>
-      <webElementGuid>40b4e97f-f1f2-4762-a4cf-d56490f2287e</webElementGuid>
+      <webElementGuid>6e12f927-1f54-44a5-b21c-8a626fbc4659</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

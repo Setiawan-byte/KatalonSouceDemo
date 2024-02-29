@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>InventoryItemName</name>
+   <name>InventoryPriceContainer</name>
    <tag></tag>
-   <elementGuidId>4fad1ff2-a8f3-4839-8682-28485e7b4c4a</elementGuidId>
+   <elementGuidId>b9e77747-b26d-4867-a642-fd1985ec6340</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.pricebar</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='item_4_title_link']/div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]</value>
+         <value>//div[@id='inventory_container']/div/div/div[2]/div[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,62 +22,54 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>db4aed20-4b65-49f9-8025-b76c328dda67</webElementGuid>
+      <webElementGuid>dd508b4f-857e-40bc-a3b2-68d5ef27c318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inventory_item_name </value>
-      <webElementGuid>33ac813e-825f-4372-ae43-eb842bb8782c</webElementGuid>
+      <value>pricebar</value>
+      <webElementGuid>9154db70-7f42-449d-98ee-58d96f53bc24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sauce Labs Backpack</value>
-      <webElementGuid>6fcc71cb-7d55-4819-ab3b-a02fd137dc74</webElementGuid>
+      <value>$29.99Add to cart</value>
+      <webElementGuid>dbe68b39-73d5-4e20-b0bf-4eb2d0e2c8ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;item_4_title_link&quot;)/div[@class=&quot;inventory_item_name&quot;]</value>
-      <webElementGuid>2b143d17-536f-4dda-9914-50952ce9a419</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Product_Inventory/Page_Swag Labs/InventoryContainer</value>
-      <webElementGuid>5db035ff-447c-47e0-941b-9632b705202d</webElementGuid>
+      <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;pricebar&quot;]</value>
+      <webElementGuid>fa228d8f-9e14-4db9-aeb9-261de34baab6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='item_4_title_link']/div</value>
-      <webElementGuid>8374e4da-1b52-4033-92ed-17fe405d10ca</webElementGuid>
+      <value>//div[@id='inventory_container']/div/div/div[2]/div[2]</value>
+      <webElementGuid>8f22ec63-b667-4eed-b002-00a991efe369</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a/div</value>
-      <webElementGuid>20253f5e-1cf1-4168-831b-61b240586d36</webElementGuid>
+      <value>//div[2]/div/div/div/div/div[2]/div[2]</value>
+      <webElementGuid>19224b4f-409a-4df4-9cc6-74b684fce314</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]</value>
-      <webElementGuid>d54775fa-1207-4db1-bb1c-e24a16e6a94d</webElementGuid>
+      <value>//div[(text() = '$29.99Add to cart' or . = '$29.99Add to cart')]</value>
+      <webElementGuid>31065a4a-fa86-4397-abe9-d4416865e73a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>InventoryItemDesc</name>
+   <name>inventoryItemDesc</name>
    <tag></tag>
-   <elementGuidId>6d8d4c44-139a-4961-abf8-bcf9e8fa3a29</elementGuidId>
+   <elementGuidId>d15ef7b4-ae1a-44c8-8d5a-e95392a336db</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;inventory_item_label&quot;]/div[@class=&quot;inventory_item_desc&quot;]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>div.inventory_item_desc</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>XPATH</key>
          <value>//div[@id='inventory_container']/div/div/div[2]/div/div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'inventory_item_desc']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f95a8e08-9b0c-4fca-80c1-b6a22d2d6c40</webElementGuid>
+      <webElementGuid>cfb95751-3125-4dee-a1d5-371d4dce578b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_desc</value>
-      <webElementGuid>cc88854f-e4af-4eda-9fc5-fbb712b4495b</webElementGuid>
+      <webElementGuid>479cc108-7ee4-4f2d-9c27-364cb1a6de9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,23 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value>carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.</value>
-      <webElementGuid>66ee8055-e983-4149-94c8-77338706c513</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;inventory_item_label&quot;]/div[@class=&quot;inventory_item_desc&quot;]</value>
-      <webElementGuid>b74b030e-0a33-40e6-8891-b998b8dd3393</webElementGuid>
+      <webElementGuid>ef996c75-8328-47f6-be1e-4ebed7681e0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>Object Repository/Product_Inventory/Page_Swag Labs/InventoryContainer</value>
-      <webElementGuid>04a28a79-3d66-458e-8a6e-8c873032de5e</webElementGuid>
+      <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;inventory_item_label&quot;]/div[@class=&quot;inventory_item_desc&quot;]</value>
+      <webElementGuid>2c393cf9-b238-4f28-bb15-e0c2b535e24b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='inventory_container']/div/div/div[2]/div/div</value>
-      <webElementGuid>c0280bc0-92dd-4b54-8e32-9f6ff61da4b3</webElementGuid>
+      <webElementGuid>24e5a681-2579-4785-ab3c-d6150f3d7144</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>5023e961-952b-4036-9b1d-cc85d97f4019</webElementGuid>
+      <webElementGuid>16f302a9-f05c-4852-a585-2cbf1f31002c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.' or . = 'carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.')]</value>
-      <webElementGuid>7c373fff-8488-41e5-9dc0-39d9f84ad2ad</webElementGuid>
+      <webElementGuid>c44bfbb1-44bf-49dd-8188-e8e80c687cf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -18,7 +18,7 @@
          <value>//*[@id = 'remove-sauce-labs-backpack' and @name = 'remove-sauce-labs-backpack' and (text() = 'Remove' or . = 'Remove')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3b9118cc-4dd2-42de-b4f6-fe25e222fc43</webElementGuid>
+      <webElementGuid>b886eb38-2005-4e9a-8fcf-014f843df1f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn_secondary btn_small btn_inventory </value>
-      <webElementGuid>ae47adc0-96b1-4fae-a16d-587b32a666e4</webElementGuid>
+      <value>btn btn_secondary btn_small btn_inventory</value>
+      <webElementGuid>464f9cb5-c31c-4df2-bdfb-1eb00028f360</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>remove-sauce-labs-backpack</value>
-      <webElementGuid>889616e4-f66e-42a2-bcc8-0a8484d98cc3</webElementGuid>
+      <webElementGuid>3e4f4555-a8e3-4716-8fd1-f07a0d16f78b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>remove-sauce-labs-backpack</value>
-      <webElementGuid>6f11d7e3-afe6-41a6-9bfc-31081f953b09</webElementGuid>
+      <webElementGuid>07585bdb-6aaa-4a5c-929e-7726104664e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>name</name>
       <type>Main</type>
       <value>remove-sauce-labs-backpack</value>
-      <webElementGuid>0bdb6884-5441-4314-8ba1-702bb1c88c9d</webElementGuid>
+      <webElementGuid>af69924b-ec61-4126-979a-8ca2f8b646ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Remove</value>
-      <webElementGuid>a9720039-a973-4581-bcd2-24dcfcb3dd0f</webElementGuid>
+      <webElementGuid>a67c979f-cd1c-4f36-a624-b3f3a9dd995c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,15 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;remove-sauce-labs-backpack&quot;)</value>
-      <webElementGuid>0097d623-ad44-4232-92b2-91e2e1c557b7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Product_Inventory/Page_Swag Labs/PriceBarr</value>
-      <webElementGuid>be0bbfa8-d296-4d1b-a886-68360db7eaee</webElementGuid>
+      <webElementGuid>b2e9a2a0-0317-472d-8416-31e534c8fbb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,15 +82,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='remove-sauce-labs-backpack']</value>
-      <webElementGuid>648a997d-5113-4375-8e4e-3acdc37c6816</webElementGuid>
+      <webElementGuid>4665ad0b-77a4-4030-aeff-80ed5e132ef1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/button</value>
-      <webElementGuid>94238187-fed3-4b27-8866-7a0220c09cfe</webElementGuid>
+      <value>//div[@id='inventory_item_container']/div/div/div[2]/button</value>
+      <webElementGuid>19a3cf7d-ff4a-4667-92c5-f26aa0925f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>a046752b-0a8b-45a3-b7b1-4e8d463ddcf2</webElementGuid>
+      <webElementGuid>803be351-683b-4659-b6f2-4016d54ffb56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'remove-sauce-labs-backpack' and @name = 'remove-sauce-labs-backpack' and (text() = 'Remove' or . = 'Remove')]</value>
-      <webElementGuid>1b4f060e-7424-47e9-8e24-b477eeaa668c</webElementGuid>
+      <webElementGuid>5a53bd75-50a0-4ae9-b03d-980055f47ce3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

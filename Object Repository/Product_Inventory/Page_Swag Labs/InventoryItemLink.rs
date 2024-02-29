@@ -4,11 +4,13 @@
    <name>InventoryItemLink</name>
    <tag></tag>
    <elementGuidId>f2d9fc79-a34a-42e9-8ff8-6140cc27df7c</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>IMAGE</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;item_4_img_link&quot;)</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -17,10 +19,6 @@
       <entry>
          <key>XPATH</key>
          <value>//a[@id='item_4_img_link']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;item_4_img_link&quot;)[count(. | //*[@href = '#' and @id = 'item_4_img_link']) = count(//*[@href = '#' and @id = 'item_4_img_link'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,23 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9e97339d-eea2-4ba2-870b-bd34c70809a6</webElementGuid>
+      <webElementGuid>bd12f3f0-617f-4699-a576-03ff9f0d4d36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>1bdf67c8-5ced-4589-b20a-6c1b4b922891</webElementGuid>
+      <webElementGuid>117fffaf-5d62-475c-a81b-7ff1c7751f18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>item_4_img_link</value>
-      <webElementGuid>fa8e422d-14bc-410c-b2f8-c5df60725527</webElementGuid>
+      <webElementGuid>62ac8417-c016-418b-9aee-3b17ce62fdc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,15 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;item_4_img_link&quot;)</value>
-      <webElementGuid>58f0a530-ff0b-4377-9e7d-71daec3ea3e8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Product_Inventory/Page_Swag Labs/InventoryContainer</value>
-      <webElementGuid>d7c95ddc-4b20-4eee-8a71-3699796b147f</webElementGuid>
+      <webElementGuid>e3e3360b-80f8-4048-b10e-d996b562dd5e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='item_4_img_link']</value>
-      <webElementGuid>c2696919-09d6-424a-a6b6-ee7a96f316fb</webElementGuid>
+      <webElementGuid>d08ecf5d-f79e-4590-965a-261bc7490f9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='inventory_container']/div/div/div/a</value>
-      <webElementGuid>60fed080-ef14-4db8-a5a6-2e79d45cdde2</webElementGuid>
+      <webElementGuid>dff0dd44-87a2-40ce-9b02-1115608cd866</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +77,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>66e45286-c112-4f76-8724-877218987d93</webElementGuid>
+      <webElementGuid>10cf8b47-dd01-4022-8222-40f7d5709ba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/a</value>
-      <webElementGuid>b7d1b9db-7227-4753-bb5f-af7f0994907b</webElementGuid>
+      <webElementGuid>6f9d27f8-a96d-4bd6-bed5-721b2e467f0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and @id = 'item_4_img_link']</value>
-      <webElementGuid>339a39ba-57cd-446e-a2be-a97601e6eb97</webElementGuid>
+      <webElementGuid>72cbf673-faae-4ed0-be71-5159471d482f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
