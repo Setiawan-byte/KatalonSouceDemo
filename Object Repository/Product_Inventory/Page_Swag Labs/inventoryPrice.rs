@@ -6,16 +6,16 @@
    <elementGuidId>841c89d8-2d74-4e1b-8546-06dafd7f0ca3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;pricebar&quot;]/div[@class=&quot;inventory_item_price&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.inventory_item_price</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '$29.99' or . = '$29.99')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>53061ffd-1993-4296-9125-ea9791c7ad20</webElementGuid>
+      <webElementGuid>3d08fa9f-6b5f-4c2a-a5dd-2f266fd2abc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,23 +34,23 @@
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_price</value>
-      <webElementGuid>808daded-4de1-437c-b257-43592fd8c9c7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>$29.99</value>
-      <webElementGuid>7a77b767-220b-4a6e-a9a6-d4263808c139</webElementGuid>
+      <webElementGuid>15c658de-8f30-4ad2-a80a-15218ee49a87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$29.99</value>
+      <webElementGuid>6d2becc2-8eba-495f-81f0-405831288b49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@id=&quot;inventory_container&quot;]/div[@class=&quot;inventory_list&quot;]/div[@class=&quot;inventory_item&quot;]/div[@class=&quot;inventory_item_description&quot;]/div[@class=&quot;pricebar&quot;]/div[@class=&quot;inventory_item_price&quot;]</value>
-      <webElementGuid>c801217c-f362-4d0e-abe1-ef1d22fadc10</webElementGuid>
+      <webElementGuid>f76d14c2-a06d-4ed6-8516-43fe87cd6685</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='inventory_container']/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>931eacef-a557-4d3c-905a-3dd985a8307f</webElementGuid>
+      <webElementGuid>5dbd5e5b-16aa-4499-914c-3f6b5402b5d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>83286ac1-1577-4f14-9f7f-6ae0010c17a4</webElementGuid>
+      <webElementGuid>bcaaeb04-aecc-41d4-9695-2a4a499da150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +74,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '$29.99' or . = '$29.99')]</value>
-      <webElementGuid>6e12f927-1f54-44a5-b21c-8a626fbc4659</webElementGuid>
+      <webElementGuid>67b0c26a-beac-46c5-bf1a-e82a51c5b9d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

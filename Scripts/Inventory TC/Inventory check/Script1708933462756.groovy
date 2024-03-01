@@ -11,13 +11,13 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebElement as WebElement
 
 WebUI.setText(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_user-name'), 'standard_user')
 
@@ -40,8 +40,22 @@ WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inve
 
 WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/button_Add to cart'))
 
-List<WebElement> webItemHargaList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryItem List'),10)
+List<WebElement> TittleList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/List_Item'), 
+    10)
+List<WebElement> DescList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryItemDesc'),
+	10)
+List<WebElement> PriceList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryPrice'),
+	10)
 
-for (data in webItemHargaList) {
-	println data.getText()
+for (def data : TittleList) {
+    println(data.getText())
 }
+for (def data : DescList) {
+	println(data.getText())
+}
+for (def data : PriceList) {
+	println(data.getText())
+}
+
+
+

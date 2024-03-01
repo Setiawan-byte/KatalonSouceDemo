@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ITEM</name>
+   <name>List_Item</name>
    <tag></tag>
-   <elementGuidId>5fb0c68d-ce27-47f8-ad44-997d9785adc1</elementGuidId>
+   <elementGuidId>0f02c087-3883-43b3-bb31-b82bf2cf1bdf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[1]/div/div/div[2]/div/div/div/div/div[2]/div[1]/a/div</value>
+         <key>CSS</key>
+         <value>div.inventory_item_name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='inventory_item_container']/div/div/div[2]/div</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.inventory_details_name.large_size</value>
+         <value>//a[@id='item_4_title_link']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,10 +19,26 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8cec2abb-f7e8-45ec-b690-1d07798cce1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inventory_item_name</value>
+      <webElementGuid>9dd88c96-e327-4cd7-a613-08ba7dd29830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Sauce Labs Backpack</value>
-      <webElementGuid>95a88aa8-6f7d-4511-9e56-0a948e5237ae</webElementGuid>
+      <webElementGuid>8706f125-c5c5-473f-bd70-7fc2cbd373bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,31 +46,31 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[1]/div/div/div[2]/div/div/div/div/div[2]/div[1]/a/div</value>
-      <webElementGuid>bfe404bb-d58f-47ce-8e06-66f09b7b0fba</webElementGuid>
+      <webElementGuid>71dc4f64-2418-4520-abe1-58d6e0be5d33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='inventory_item_container']/div/div/div[2]/div</value>
-      <webElementGuid>a81bd108-7256-4cb9-9b8c-cf8cc7044e7a</webElementGuid>
+      <value>//a[@id='item_4_title_link']/div</value>
+      <webElementGuid>befe4e25-044d-4908-8aed-87633d46dc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to products'])[1]/following::div[6]</value>
-      <webElementGuid>2847ae3a-5594-47d1-a31a-28a1c2b96950</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name (A to Z)'])[1]/following::div[9]</value>
+      <webElementGuid>5ee01c8e-7366-4299-b7dd-571dd255d792</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::div[11]</value>
-      <webElementGuid>d43fa5af-022a-449a-b203-5dcd4f04997b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/following::div[11]</value>
+      <webElementGuid>4102a95f-9384-4caa-8f5e-353af07ee2c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='$29.99'])[1]/preceding::div[2]</value>
-      <webElementGuid>2dca54ee-258c-4abd-a490-bf644cd51736</webElementGuid>
+      <webElementGuid>e45121ed-db19-4c41-992e-b8a0b2edf503</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/preceding::div[3]</value>
-      <webElementGuid>5d2c8490-a1d8-461b-b197-2118528eda8c</webElementGuid>
+      <webElementGuid>4a65840e-630a-4871-83c6-335b05165b14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,15 +94,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sauce Labs Backpack']/parent::*</value>
-      <webElementGuid>b4b4265b-c88e-48f3-b0e4-d072192637a3</webElementGuid>
+      <webElementGuid>2a20d924-15dd-401a-9cf7-19a4a8682db6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div[2]/div</value>
-      <webElementGuid>1c290e7f-0500-448e-96dc-e114bf81fd92</webElementGuid>
+      <value>//a/div</value>
+      <webElementGuid>bc3e33c7-28d0-4e64-9e56-25a2ce6def4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Sauce Labs Backpack' or . = 'Sauce Labs Backpack')]</value>
-      <webElementGuid>dcdf5d83-c0a1-4dab-9e9f-d5e599fdb4a2</webElementGuid>
+      <webElementGuid>180ad754-919a-4a16-86fd-ff37493ce15a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
