@@ -24,4 +24,9 @@
       <initValue>'secret_sauce'</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Thumbnail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
