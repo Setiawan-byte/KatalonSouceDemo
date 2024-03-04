@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;item_4_img_link&quot;)/img[@class=&quot;inventory_item_img&quot;][count(. | //*[@src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']) = count(//*[@src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg'])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>img.inventory_item_img</value>
+         <value>//*[@class = 'inventory_item_img' and @src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='item_4_img_link']/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.inventory_item_img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>464bf5aa-5b55-4227-89e9-45040d2f7a86</webElementGuid>
+      <webElementGuid>f425890f-bf31-4346-b22a-f447525fe7fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,15 +34,15 @@
       <name>alt</name>
       <type>Main</type>
       <value>Sauce Labs Backpack</value>
-      <webElementGuid>28057019-ad13-4c2e-a93f-0047d6fdc8e9</webElementGuid>
+      <webElementGuid>7669d2ef-1a71-4740-aa8f-1f65e0b8ee67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>inventory_item_img</value>
-      <webElementGuid>91bc6c90-901a-41d1-8e8b-189d43e6fd1b</webElementGuid>
+      <webElementGuid>ad399563-1abd-4f8a-8f7e-75e93f420c2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,15 +50,15 @@
       <name>src</name>
       <type>Main</type>
       <value>/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg</value>
-      <webElementGuid>e8bc6245-a44f-47dc-a3d5-4f862474c5ae</webElementGuid>
+      <webElementGuid>9d4f65ec-c25a-4841-ae03-12bdf8f878f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;item_4_img_link&quot;)/img[@class=&quot;inventory_item_img&quot;]</value>
-      <webElementGuid>4cf08909-d55c-4d7c-ae6d-999091ece22d</webElementGuid>
+      <webElementGuid>9c87f39a-f699-4e01-acb8-211b351f2310</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='item_4_img_link']/img</value>
-      <webElementGuid>347d9700-87a3-47f1-8cbc-922aefe74286</webElementGuid>
+      <webElementGuid>3f763bbb-7453-4474-8055-40aca983f7fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Sauce Labs Backpack']</value>
-      <webElementGuid>fc34c099-dc01-44cc-9bc0-39cf6735b4ea</webElementGuid>
+      <webElementGuid>3beed3fb-d684-408f-983a-fd6bea47f49f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/img</value>
-      <webElementGuid>9c8b179a-c49b-4bc0-b9f7-379bf786c5ba</webElementGuid>
+      <webElementGuid>2d49d1a3-12c0-4613-acb4-eb82fe06f6e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@alt = 'Sauce Labs Backpack' and @src = '/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg']</value>
-      <webElementGuid>190e8982-f012-4f6a-9f83-7881e70d4c87</webElementGuid>
+      <webElementGuid>339d2e17-1c91-48e6-a756-aa8c7f424868</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

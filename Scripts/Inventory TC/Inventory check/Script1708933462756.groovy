@@ -26,9 +26,14 @@ WebUI.setText(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_
 WebUI.click(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_login-button'))
 
 //check image between inventory and inventory item a.k.a detail
-Thumbnail = WebUI.getAttribute(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryImg'), 'src')
+GlobalVariable.Thumbnail = WebUI.getAttribute(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryImg'), 'src')
 
-println(Thumbnail)
+println(GlobalVariable.Thumbnail)
+
+//List<WebElement> thumbnails = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryImg'), 10)
+//for (def data : thumbnails) {
+//	WebUI.getAttribute(data, 'src')
+//}
 
 WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryImg'))
 
