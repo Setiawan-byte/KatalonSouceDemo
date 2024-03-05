@@ -17,13 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1'))
-
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2'))
-
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2_3'))
-
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2_3_4'))
-
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2_3_4_5'))
-

@@ -16,14 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.openqa.selenium.WebElement as WebElement
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1'))
+WebUI.callTestCase(findTestCase('Login TC/Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2'))
+WebUI.selectOptionByValue(findTestObject('Product_Inventory/Page_Swag Labs/Filter/FIlterName (A to Z)'), 'az', true)
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2_3'))
+List<WebElement> webItemList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/List_Item'), 
+    10)
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2_3_4'))
+List<WebElement> oriList = new ArrayList()
 
-WebUI.click(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/button_Add to cart_1_2_3_4_5'))
+List<WebElement> sortedList = new ArrayList()
+
+for (def data : webItemList) {
+    println(data.getText())
+
+    oriList.add(data.getText())
+
+    sortedList.add(data.getText())
+}
+
+Collections.sort(sortedList)
+
+//Collection.sort(sortedList, Collections.reverseOrder())
+println('A')
+
+if (!(oriList.equals(sortedList))) {
+    KeywordUtil.markFailed('Sorting tidak sesuai')
+}
 

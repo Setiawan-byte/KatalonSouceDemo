@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_login-button</name>
+   <name>button_Add to cart_1_2_3_4_5</name>
    <tag></tag>
-   <elementGuidId>49e2c69b-e666-4906-a88b-1fa92ca1f545</elementGuidId>
+   <elementGuidId>16834c68-2467-4863-b249-f0c0d906fdae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-button</value>
+         <value>#add-to-cart-sauce-labs-onesie</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-button']</value>
+         <value>//button[@id='add-to-cart-sauce-labs-onesie']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>95248152-bc93-4df1-be83-033f33d1d84d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>56fece52-3d1b-449e-acea-bd93fb706e98</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c9ca238b-e0d3-40a7-afff-fa37d592b299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>submit-button btn_action</value>
-      <webElementGuid>9ed76254-f793-48d4-829d-055e0f0cb345</webElementGuid>
+      <value>btn btn_primary btn_small btn_inventory </value>
+      <webElementGuid>e4d36285-51ec-4012-a0ed-4a164d581558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>8dc1d147-5adb-4736-bcc0-0b46825e7032</webElementGuid>
+      <value>add-to-cart-sauce-labs-onesie</value>
+      <webElementGuid>070a36db-fda1-4bc6-a77e-f4291772d7c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>bc88eb10-0314-4dc6-bb65-5da0f5bbc81e</webElementGuid>
+      <value>add-to-cart-sauce-labs-onesie</value>
+      <webElementGuid>24fb7158-a1bb-4859-8bad-eabd381e4e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>1d7567ce-3028-4f5a-9b1b-79d9c995d4d0</webElementGuid>
+      <value>add-to-cart-sauce-labs-onesie</value>
+      <webElementGuid>b7b2450a-a10f-47c0-8965-976bfc35f48f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>ed9b1058-4a5f-49c7-abd0-74e42695385f</webElementGuid>
+      <value>Add to cart</value>
+      <webElementGuid>e60dc880-172e-4827-8344-515eb27ca9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>708b6a00-e1e0-4735-8d00-dc1ab251aabe</webElementGuid>
+      <value>id(&quot;add-to-cart-sauce-labs-onesie&quot;)</value>
+      <webElementGuid>ea780cae-018e-4cb5-8fef-f40a14c69403</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-button']</value>
-      <webElementGuid>fa2e29a4-2a2d-4850-8819-b24fef38e18b</webElementGuid>
+      <value>//button[@id='add-to-cart-sauce-labs-onesie']</value>
+      <webElementGuid>4ea1c4a0-da54-4acc-8ce3-d8a68d8c8c9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/input</value>
-      <webElementGuid>4d78720c-0d05-473e-ac2c-66be9b469fec</webElementGuid>
+      <value>//div[@id='inventory_container']/div/div[5]/div[2]/div[2]/button</value>
+      <webElementGuid>5ac2902b-7974-4352-ae95-232b40824c9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/input</value>
-      <webElementGuid>ef7f89e2-2841-4000-8464-ee560d3e7119</webElementGuid>
+      <value>//div[5]/div[2]/div[2]/button</value>
+      <webElementGuid>2c262cfa-344f-47cf-b101-fc469edb3206</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'login-button' and @name = 'login-button']</value>
-      <webElementGuid>18737380-3236-4250-b5e8-0e7eff41a103</webElementGuid>
+      <value>//button[@id = 'add-to-cart-sauce-labs-onesie' and @name = 'add-to-cart-sauce-labs-onesie' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>9388512a-7bae-4ff3-a928-fc7d75556b06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

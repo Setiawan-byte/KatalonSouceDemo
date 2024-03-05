@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_login-button</name>
+   <name>button_Add to cart_1_2_3_4</name>
    <tag></tag>
-   <elementGuidId>49e2c69b-e666-4906-a88b-1fa92ca1f545</elementGuidId>
+   <elementGuidId>d22e42fb-9e63-4b8b-87ad-95278807f71b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#login-button</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='login-button']</value>
+         <value>//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>95248152-bc93-4df1-be83-033f33d1d84d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>56fece52-3d1b-449e-acea-bd93fb706e98</webElementGuid>
+      <value>button</value>
+      <webElementGuid>dca76123-35a9-4fb4-a757-24ae2dd27a22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>submit-button btn_action</value>
-      <webElementGuid>9ed76254-f793-48d4-829d-055e0f0cb345</webElementGuid>
+      <value>btn btn_primary btn_small btn_inventory </value>
+      <webElementGuid>1b2cd501-d3b3-456e-a9f9-9c8215bf6f7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>8dc1d147-5adb-4736-bcc0-0b46825e7032</webElementGuid>
+      <value>add-to-cart-test.allthethings()-t-shirt-(red)</value>
+      <webElementGuid>7c25a5ab-5dff-4156-bd48-767256919f4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>bc88eb10-0314-4dc6-bb65-5da0f5bbc81e</webElementGuid>
+      <value>add-to-cart-test.allthethings()-t-shirt-(red)</value>
+      <webElementGuid>42d43c76-d9f5-4fbf-a58a-2c962fba8e07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>login-button</value>
-      <webElementGuid>1d7567ce-3028-4f5a-9b1b-79d9c995d4d0</webElementGuid>
+      <value>add-to-cart-test.allthethings()-t-shirt-(red)</value>
+      <webElementGuid>57957c23-0d76-4483-b3c8-3222af16b37d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>ed9b1058-4a5f-49c7-abd0-74e42695385f</webElementGuid>
+      <value>Add to cart</value>
+      <webElementGuid>8f17aba3-b0ae-40a3-890a-f04baa42202c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login-button&quot;)</value>
-      <webElementGuid>708b6a00-e1e0-4735-8d00-dc1ab251aabe</webElementGuid>
+      <value>id(&quot;add-to-cart-test.allthethings()-t-shirt-(red)&quot;)</value>
+      <webElementGuid>8cc0ae96-2839-4064-a42d-50630e823790</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='login-button']</value>
-      <webElementGuid>fa2e29a4-2a2d-4850-8819-b24fef38e18b</webElementGuid>
+      <value>//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']</value>
+      <webElementGuid>faf4c108-3d6a-4ca6-b150-1b4823261126</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/input</value>
-      <webElementGuid>4d78720c-0d05-473e-ac2c-66be9b469fec</webElementGuid>
+      <value>//div[@id='inventory_container']/div/div[6]/div[2]/div[2]/button</value>
+      <webElementGuid>5d51c3d7-1b81-4f7b-baaf-0022e545d132</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/input</value>
-      <webElementGuid>ef7f89e2-2841-4000-8464-ee560d3e7119</webElementGuid>
+      <value>//div[6]/div[2]/div[2]/button</value>
+      <webElementGuid>54d6fa56-f465-4e67-8dfd-ac75f60ccebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'submit' and @id = 'login-button' and @name = 'login-button']</value>
-      <webElementGuid>18737380-3236-4250-b5e8-0e7eff41a103</webElementGuid>
+      <value>//button[@id = 'add-to-cart-test.allthethings()-t-shirt-(red)' and @name = 'add-to-cart-test.allthethings()-t-shirt-(red)' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
+      <webElementGuid>423b12de-19e0-40fa-b656-50b4d48043d0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

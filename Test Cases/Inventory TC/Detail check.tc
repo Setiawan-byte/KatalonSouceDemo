@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify element on Item detail</description>
    <name>Detail check</name>
    <tag></tag>
    <comment></comment>
