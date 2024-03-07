@@ -21,7 +21,12 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Login TC/Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Product_Inventory/Page_Swag Labs/Filter/selectFilter'), 'az', true)
+try {WebUI.selectOptionByValue(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/Filter/selectFilter'),
+	'za', true)
+} catch (Exception e) {
+	println('Filter changed to Z-A')
+}
+
 
 List<WebElement> webItemList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/List_Item'), 
     10)
@@ -41,9 +46,8 @@ for (def data : webItemList) {
 Collections.sort(sortedList)
 
 //Collection.sort(sortedList, Collections.reverseOrder())
-if (!(oriList.equals(sortedList))) {
+if (!(oriList.equals(sortedList.reverse()))) { 			//reverse here
     KeywordUtil.markFailed('Sorting tidak sesuai')
 } else {
     println('Sorting sesuai')
 }
-

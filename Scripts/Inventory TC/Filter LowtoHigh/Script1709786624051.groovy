@@ -21,27 +21,32 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Login TC/Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Product_Inventory/Page_Swag Labs/Filter/selectFilter'), 'az', true)
+try {
+    WebUI.selectOptionByValue(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/Filter/selectFilter'), 
+        'lohi', true)
+}
+catch (Exception e) {
+    println('Filter changed to Low to High')
+} 
 
-List<WebElement> webItemList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/List_Item'), 
-    10)
+List<WebElement> HargaList = WebUI.findWebElements(findTestObject('Product_Inventory/Page_Swag Labs/inventoryPrice'), 10)
 
-List<WebElement> oriList = new ArrayList()
+List<WebElement> hargaOri = new ArrayList()
 
-List<WebElement> sortedList = new ArrayList()
+List<WebElement> hargaSort = new ArrayList()
 
-for (def data : webItemList) {
-    println(data.getText())
-
-    oriList.add(data.getText())
-
-    sortedList.add(data.getText())
+for (def data : HargaList) {
+    hargaOri.add(Double.parseDouble(data.getText().replace('$','')))		//jadikan desimal
+    hargaSort.add(Double.parseDouble(data.getText().replace('$','')))
+    println((('Ori: ' + (hargaOri[-1])) + ' |  Sort: ') + (hargaSort[-1]))
 }
 
-Collections.sort(sortedList)
+Collections.sort(hargaSort)
+println(hargaSort)
+println(hargaOri)
 
 //Collection.sort(sortedList, Collections.reverseOrder())
-if (!(oriList.equals(sortedList))) {
+if (!(hargaOri.equals(hargaSort))) {    
     KeywordUtil.markFailed('Sorting tidak sesuai')
 } else {
     println('Sorting sesuai')

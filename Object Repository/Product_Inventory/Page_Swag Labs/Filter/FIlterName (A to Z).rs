@@ -4,16 +4,7 @@
    <name>FIlterName (A to Z)</name>
    <tag></tag>
    <elementGuidId>d7d1f1b1-d11b-4bf5-92f3-529b1f1f43f4</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='header_container']/div[2]/div/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.select_container</value>
@@ -22,8 +13,15 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;header_container&quot;]/div[2]/div/span/select</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>51d139dd-5f24-43f6-9f70-e8eff6091524</webElementGuid>
+      <webElementGuid>510975ab-196a-4f5d-ae80-8b0ba144d342</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>select_container</value>
-      <webElementGuid>3873f3ec-d2a4-4567-a088-474acd854e01</webElementGuid>
+      <webElementGuid>e6254967-f6b2-42d5-9eb6-5cabbd21a522</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)</value>
-      <webElementGuid>c733b8ff-f450-4693-a631-c3e3043be364</webElementGuid>
+      <webElementGuid>2c585565-b507-46d8-bdb6-7808308d137d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;header_container&quot;)/div[@class=&quot;header_secondary_container&quot;]/div[@class=&quot;right_component&quot;]/span[@class=&quot;select_container&quot;]</value>
-      <webElementGuid>6e93afed-8365-49ed-9450-ed82e123ca1f</webElementGuid>
+      <webElementGuid>06551571-3fe5-4b4a-b183-7fde519ddd81</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='header_container']/div[2]/div/span</value>
-      <webElementGuid>28b4fb07-ef75-4b34-8f14-618bee0ce382</webElementGuid>
+      <webElementGuid>7cd27eef-3d67-4e84-a022-d23c65b62019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +69,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/span</value>
-      <webElementGuid>0d54b110-5d72-4cce-b0d1-36628358e0a5</webElementGuid>
+      <webElementGuid>3965f01c-f87f-4702-bc3a-5cabd8abc4f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +77,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
-      <webElementGuid>c335b73f-4369-4c84-bc99-74fd95172cb8</webElementGuid>
+      <webElementGuid>1f2c0d28-632c-4710-bcb7-695c99de2f01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

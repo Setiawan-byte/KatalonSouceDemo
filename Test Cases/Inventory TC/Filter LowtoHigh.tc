@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-Name_A_TO _Z tambah_Konfirmasi</name>
+   <name>Filter LowtoHigh</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b1db2ee0-838c-4b93-a984-7bd8b791fb1d</testCaseGuid>
+   <testCaseGuid>6e1c65ed-b3de-4725-bf09-8e0b63c60aa1</testCaseGuid>
 </TestCaseEntity>
