@@ -26,7 +26,8 @@ WebUI.setText(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_
 WebUI.click(findTestObject('Object Repository/Login Page/Page_Swag Labs/input_login-button'))
 
 //check image between inventory and inventory item a.k.a detail
-GlobalVariable.Thumbnail = WebUI.getAttribute(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryImg'), 'src')
+GlobalVariable.Thumbnail = WebUI.getAttribute(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryImg'), 
+    'src')
 
 println(GlobalVariable.Thumbnail)
 
@@ -34,7 +35,6 @@ println(GlobalVariable.Thumbnail)
 //for (def data : thumbnails) {
 //	WebUI.getAttribute(data, 'src')
 //}
-
 WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryImg'))
 
 WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/inventoryItemTittle'))
@@ -47,20 +47,26 @@ WebUI.verifyElementVisible(findTestObject('Product_Inventory/Page_Swag Labs/butt
 
 List<WebElement> TittleList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/List_Item'), 
     10)
-List<WebElement> DescList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryItemDesc'),
-	10)
-List<WebElement> PriceList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryPrice'),
-	10)
+
+List<WebElement> DescList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryItemDesc'), 
+    10)
+
+List<WebElement> PriceList = WebUI.findWebElements(findTestObject('Object Repository/Product_Inventory/Page_Swag Labs/inventoryPrice'), 
+    10)
+
+WebUI.verifyEqual(TittleList.size(),DescList.size())
+WebUI.verifyEqual(TittleList.size(),PriceList.size())
+
 
 for (def data : TittleList) {
     println(data.getText())
 }
+
 for (def data : DescList) {
-	println(data.getText())
+    println(data.getText())
 }
+
 for (def data : PriceList) {
-	println(data.getText())
+    println(data.getText())
 }
-
-
 

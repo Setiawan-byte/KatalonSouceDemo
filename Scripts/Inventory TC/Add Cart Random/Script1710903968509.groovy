@@ -21,14 +21,48 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Inventory TC/Add Cart Random'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login TC/Positive'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Product_Inventory/Page_Swag Labs/CartCounter'), 0)
+// How many item clicked
+'How many Item want to click (Min:1)'
+int numRandomClicks = 3
 
-cart = WebUI.getText(findTestObject('Product_Inventory/Page_Swag Labs/CartCounter'))
-// Access the global variable
+// Get all "Add to cart" buttons
+List<WebElement> addToCartButtons = DriverFactory.getWebDriver().findElements(By.xpath('//button[(text() = "Add to cart")]'))
 
-List<WebElement> removeButtons = GlobalVariable.removeButtons
+//print the list
+println('Length of the list: ' + addToCartButtons.size())
 
-WebUI.verifyEqual(removeButtons.size(), cart)
-println (removeButtons.size() + '=' + cart )
+println('Contents of the list:')
+
+addToCartButtons.each({ def button ->
+        println(button.getText())
+    })
+
+// Perform random button clicks without repetition
+for (int i = 0; (i < numRandomClicks) && !(addToCartButtons.isEmpty()); i++) {
+    // Generate a random index within the current range of the buttons
+    int randomIndex = ((Math.random() * addToCartButtons.size()) as int)
+
+    // Click on the button at the randomly generated index
+    WebElement randomButton = addToCartButtons.get(randomIndex)
+
+    randomButton.click()
+
+    // Remove the clicked button from the list
+    addToCartButtons.remove(randomButton)
+}
+
+WebUI.delay(2)
+
+// Get all "Remove" buttons / Clicked 
+List<WebElement> removeButtons = DriverFactory.getWebDriver().findElements(By.xpath('//button[(text() = "Remove")]'))
+GlobalVariable.removeButtons = removeButtons    //store to Global variable
+
+// Get the id attribute of the clicked button
+removeButtons.each({ def idAttribute ->
+        println(idAttribute.getAttribute('id'))
+    })
+
+WebUI.delay(3)
+

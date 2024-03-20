@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>754fc95d-9f9c-4fea-9a17-905e55d70060</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2827ea8d-e6d6-47fa-9a8f-f953a2a60652</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>2827ea8d-e6d6-47fa-9a8f-f953a2a60652</id>
+      <masked>false</masked>
+      <name>removeButtons</name>
+   </variable>
 </TestCaseEntity>

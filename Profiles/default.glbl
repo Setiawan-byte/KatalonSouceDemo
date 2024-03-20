@@ -29,4 +29,9 @@
       <initValue>''</initValue>
       <name>Thumbnail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[]</initValue>
+      <name>removeButtons</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
